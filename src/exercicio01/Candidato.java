@@ -35,6 +35,6 @@ public class Candidato {
         this.anosExperiencia = anosExperiencia;
     }
     public String toString(){
-        return nome + "\t\t" + notaTecnica + "\t\t" + anosExperiencia;
+        return nome + "\t\t\t" + notaTecnica + "\t\t\t" + anosExperiencia;
     }
 }
