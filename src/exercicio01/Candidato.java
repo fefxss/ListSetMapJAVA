@@ -19,19 +19,22 @@ public class Candidato {
         this.nome = nome;
     }
 
-    public int getNotaTecnica() {
+    public double getNotaTecnica() {
         return notaTecnica;
     }
 
-    public void setNotaTecnica(int notaTecnica) {
+    public void setNotaTecnica(double notaTecnica) {
         this.notaTecnica = notaTecnica;
     }
 
-    public double getAnosExperiencia() {
+    public int getAnosExperiencia() {
         return anosExperiencia;
     }
 
-    public void setAnosExperiencia(double anosExperiencia) {
+    public void setAnosExperiencia(int anosExperiencia) {
         this.anosExperiencia = anosExperiencia;
+    }
+    public String toString(){
+        return nome + "\t\t" + notaTecnica + "\t\t" + anosExperiencia;
     }
 }

@@ -12,7 +12,7 @@ public class main {
         lista.add(new Candidato("Antonio",7.2,10));
         lista.add(new Candidato("Maria",10,5));
 
-        lista.sort(Comparator.comparing(Candidato::getNome));
+        lista.sort(Comparator.comparing(Candidato::getNome).reversed());
 
         lista.forEach(candidato -> {
             System.out.println(candidato);
